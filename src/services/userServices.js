@@ -1,6 +1,6 @@
 export async function getUsers(query = "") {
   try {
-    let url = "http://127.0.0.1:3000";
+    let url = "https://server-q7xt.onrender.com:3000";
     
     if (query) url += `?term=${query}`;
     
